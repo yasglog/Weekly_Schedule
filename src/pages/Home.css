@@ -1,0 +1,93 @@
+.container {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .PrevButton{
+    display: flex;
+    align-items: center;
+    
+  }
+  input.check[type="checkbox"] {
+    /* height: 15px; */
+    min-width: 18px;
+  }
+  .buttonText{
+    color:blue;
+  }
+  .timeZone{
+    display: flex;
+    flex-direction: column;
+    min-width: 1500px;
+    /* align-items: start; */
+  }
+  #timeZoneText{
+    text-align: left;
+  }
+  
+  #timezoneSelect{
+    height: 50px;
+  }
+  .timezone-select {
+    margin-bottom: 10px;
+  }
+  
+  .timezone-select label {
+    margin-right: 10px;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .schedule-item {
+    margin-bottom: 5px;
+  }
+  .timeline{
+    display:  flex;
+    min-width: 1536px;
+    gap: 14px;
+  }
+  .schedule1{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  /* .schedule{
+    max-width: 1536px;
+  } */
+  .timebox{
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .timestamp{
+    display: flex;
+    gap: 10px;
+    min-width: 100px;
+  }
+  .daydate{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+  .day{
+    color: rgb(213, 111, 111);
+  }
